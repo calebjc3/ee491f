@@ -2,13 +2,19 @@
 
 <head>
   <title>The Page Title</title>
+  <link rel="stylesheet" href="stlyes.css">
+  <style>
+    li {
+      color: red
+    }
+  </style>
 </head>
 
 <body>
   <header id="header">
     <h1><span style="color:chocolate">Lions!</span></h1>
     <h3>Made by Caleb Cheshire</h3>
-    <h4>Last updated 5/28/2022</h4>
+    <h4>Last updated 6/1/2022</h4>
     <h5>EE491F, Summer 2022</h5>
     <h6>UH Manoa</h6>
   </header>
@@ -47,18 +53,61 @@
     </tr>
   </table>
   <div>
-    <p>Top three things lions are known for:</p>
     <ol>
+      Top Three Things Lions Are Known For:
       <li>Roaring</li>
       <li>Having a mane</li>
       <li>Living in Africa</li>
     </ol>
-    <p>Other cool things about lions:</p>
     <ul>
-      <li>The biggest lion ever was 690 pounds</li>
+      Other Cool Things About Lions:
+      <li style="color:blueviolet;">The biggest lion ever was 690 pounds</li>
       <li>They can run 50 mph (good luck trying to get away)</li>
-      <li>Their bite has a strength of 650 psi (ouch!)</li>
+      <li id="unique-li">Their bite has a strength of 650 psi (ouch!)</li>
+      <li class="warning">LIONS ARE DANGEROUS CREATURES!</li>
+      <li>A lion family is called a "pride"</li>
+      <li class="warning error">LIONS CAN BITE YOUR ARM OFF</li>
+      <li attribute-name>The most popular movie about lions is Lion King. I don't actually know that but I'm guessing and it's probably true.</li>
+      <li attribute-name="attribute-value">Lions are known as the "King of the Jungle" but they really live out on the savannah.</li>
+      <li class="warning" attribute-name>This bullet point is pointless...I have nothing to say.</li>
     </ul>
+    <ul class="parent-child">
+      Lion Parent
+      <li>Lion Cub 1</li>
+      <li>Lion Cub 2</li>
+      <li>Lion Cub 3</li>
+      <li>
+        <ul>
+          Grandcub
+          <li>Great-Grandcub</li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="ancestor-descendant">
+      Great Lion Ancestor
+      <li>Descendant Lion 1</li>
+      <li>Descendant Lion 2</li>
+      <li>Descendant Lion 3</li>
+      <li>
+        <ul>
+          Grandcub
+          <li>Great-Grandcub</li>
+        </ul>
+      </li>
+      </li>
+    </ul>
+  </div>
+  <p>random paragraph just for fun :)</p>
+  <p>another random paragraph to practice css</p>
+  <p>Below you can see how both Lions and Ostriches exist in a larger continent (or box) known as Africa:</p>
+  <div class="box">
+    Africa
+    <div class="box">
+      Lions
+    </div>
+    <div class="box">
+      Ostriches
+    </div>
   </div>
   <footer id="footer">Thanks for reading this ridiculous webpage!</footer>
 </body>
