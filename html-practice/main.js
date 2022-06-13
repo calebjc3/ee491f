@@ -1,13 +1,11 @@
 $(document).ready(function() {
-  console.log("ready!");
-  $("button").html("Click Here")
-  $("button").on("click", function( event ) {
-    ($("p").toggle("important"));
+  console.log("ready")
+  $("#button").click(function(){
+    $("body").css("background-color", "aquamarine");
   });
-
-  console.log("ready!");
-  $("#toggle").html("Show Navbar")
-  $("#toggle").on("click", function( event ) {
-    $("#toggle").toggle("slow");
+  
+  console.log("ready")
+  $("#button2").click(function(){
+    $("body").toggleClass("navbar");
   });
-}); 
+});

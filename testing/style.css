@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+}
+
+/* .class selector */
+.page-header {
+    background-color: plum;
+}
+
+.black-bg {
+    background-color: black;
+}
+
+/* #id selector */
+#red-paragraph {
+    color: red;
+    margin: 35px;
+}
+
+/* element selector */
+h1 {
+    background-color: plum;
+}
+
+/* [attribute] selector */
+[href] {
+    background-color: paleturquoise;
+}
+
+/* [attribute=value] */
+[id = "table"] {
+    background-color: palegreen;
+}
+
+/* ancenstor_selector descendent_selector */
+ul li {
+    background-color: peachpuff;
+}
+
+/* parent_selector >  child_selector */
+ol > li {
+    background-color: papayawhip;
+}
+
+/* selector1, selector2, selector3 */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 35px;
+    padding: 35px;
+}
+
+/* .compounding selectors */
+ul.list {
+    border: 1px solid black;
+}
+
+.center {
+    text-align: center;
+    margin: 35px;
+    padding: 35px;
+}
